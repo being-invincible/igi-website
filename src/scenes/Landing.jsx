@@ -14,7 +14,7 @@ const Landing = ({setselectedPage, companyName, slogan, button01, button02}) => 
     return (
         <div>
             <section id='services'
-                class="min-h-screen relative bg-hero-image bg-cover bg-center bg-no-repeat"
+                class="h-[75vh] lg:min-h-screen relative bg-hero-image bg-cover bg-center bg-no-repeat"
                 >
                 
                 <div
@@ -24,7 +24,7 @@ const Landing = ({setselectedPage, companyName, slogan, button01, button02}) => 
                 {/* <div
                     class="relative mx-auto max-w-screen-xl pt-60 lg:flex min-h-screen lg:items-center lg:px-8"
                 > */}
-                    <div class="relative px-20 font-montserrat text-start sm:text-left pt-[150px] lg:pt-[250px]">
+                    <div class="relative px-10 font-montserrat text-start sm:text-left pt-[100px] lg:pt-[250px]">
                     <motion.div
                         class=""
                         initial="hidden"

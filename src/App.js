@@ -38,7 +38,7 @@ function App() {
       <Product products={t("products")} />
 
       <Landing setSelectedPage={setSelectedPage} companyName={`“20 Years In Hospitality Field, Dedicated To The Best
-      Hotel Linen Supplier In Saudi”`} 
+      Hotel Linen Supplier In Saudi Arabia”`} 
       slogan="Find the Products You’re Looking For" button01={t("button01")} button02="Download Catalogue" />
       
       {/* Nav Floating Dots */}

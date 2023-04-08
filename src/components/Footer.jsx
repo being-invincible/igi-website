@@ -13,13 +13,13 @@ const Footer = () => {
                     <div className='items-center'>
                     <img className='w-20 lg:w-20' src="logo_footer.jpg" alt="Logo" />
                     </div>
-                <span className="invisible md:visible font-montserrat text-justify text-xs sm:text-sm sm:text-center text-gray-800">© 2023 <a href="#home" class="hover:underline">Ahattah law & legal consultations Co.</a> - All Rights Reserved.
+                <span className="invisible md:visible font-montserrat text-justify text-xs sm:text-sm sm:text-center text-gray-800">© 2023 <a href="#home" class="hover:underline">Imran Gulf Industries. F. Co.</a> - All Rights Reserved.
                 </span>
                 <SocialMediaIcons className="place-items-start" />
                 </div>
                 
               </div>
-                <p className="mb-3 sm:invisible w-full visible font-montserrat text-xs text-center text-gray-800">© 2023 <a href="#home" class="hover:underline">Ahattah law & legal consultations Co.</a>
+                <p className="mb-3 sm:invisible w-full visible font-montserrat text-xs text-center text-gray-800">© 2023 <a href="#home" class="hover:underline">Imran Gulf Industries. F. Co.</a>
                 </p>
                 <p className="p-2 sm:invisible w-full visible font-montserrat text-xs text-center text-gray-500"> All Rights Reserved
                 </p> 
