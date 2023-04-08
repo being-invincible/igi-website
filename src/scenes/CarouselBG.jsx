@@ -48,7 +48,7 @@ const CarouselBG = ({autoSlide = false}) => {
     <div id='home' className="min-w-full lg:min-h-screen relative group">
         <div style={{backgroundImage: `url(${sliderData[currentSlide].image})`}} className="h-[75vh] lg:min-h-screen bg-center bg-cover duration-500 z-10">
             
-            <motion.div className='text-start w-full pt-32 lg:pt-60 font-serif px-[100px] lg:px-[350px]'
+            <motion.div className='text-start w-full py-60 lg:py-60 font-serif px-[60px] lg:px-[350px]'
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: false, amount: 0.4 }}
