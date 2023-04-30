@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from '../hooks/useMediaQuery';
 import { MdSegment, MdClear } from "react-icons/md";
+import { FaHome, FaInfoCircle, FaCartPlus, FaHandsHelping, FaPhoneSquareAlt } from "react-icons/fa"
 
 import { SlGlobe } from "react-icons/sl";
 
@@ -42,45 +43,49 @@ const Navbar = ({ selectedPage, setSelectedPage, home, about, products, contact,
                 {/* Desktop Nav */}
                 {isAboveSmallScreens ? (
                     <div className='w-full py-4 flex items-center justify-between mx-auto px-20'>
-                        <img className='w-12 lg:w-14' src="logo_footer.jpg" alt="Logo" />
-                        <div className='flex justify-between gap-16 font-montserrat text-md font-semibold'>
+                        
                         <AnchorLink className={`${selectedPage === Object.keys({home})[0] ? "text-toddy-gold" : "text-magic-potion"}
-                            hover:text-toddy-gold transition-all`}
+                            hover:text-toddy-gold transition-all flex flex-wrap flex-col items-center font-montserrat text-md font-semibold`}
                             href={`#${Object.keys({home})[0]}`}
                             onClick={() => setSelectedPage(home)}
                             >
+                                <FaHome />
                                 {home}
                         </AnchorLink>
                         <AnchorLink className={`${selectedPage === Object.keys({about})[0] ? "text-toddy-gold" : "text-magic-potion"}
-                            hover:text-toddy-gold transition-all`}
+                            hover:text-toddy-gold transition-all flex flex-wrap flex-col items-center font-montserrat text-md font-semibold`}
                             href={`#${Object.keys({about})[0]}`}
                             onClick={() => setSelectedPage(about)}
                             >
+                                <FaInfoCircle />
                                 {about}
                         </AnchorLink>
                         <AnchorLink className={`${selectedPage === Object.keys({products})[0] ? "text-toddy-gold" : "text-magic-potion"}
-                            hover:text-toddy-gold transition-all`}
+                            hover:text-toddy-gold transition-all flex flex-wrap flex-col items-center font-montserrat text-md font-semibold`}
                             href={`#${Object.keys({products})[0]}`}
                             onClick={() => setSelectedPage(products)}
                             >
+                                <FaCartPlus />
                                 {products}
                         </AnchorLink>
+                        <img className='w-12 lg:w-14' src="logo_footer.jpg" alt="Logo" />
                         <AnchorLink className={`${selectedPage === Object.keys({services})[0] ? "text-toddy-gold" : "text-magic-potion"}
-                            hover:text-toddy-gold transition-all`}
+                            hover:text-toddy-gold transition-all flex flex-wrap flex-col items-center font-montserrat text-md font-semibold`}
                             href={`#${Object.keys({services})[0]}`}
                             onClick={() => setSelectedPage(services)}
                             >
+                                <FaHandsHelping />
                                 {services}
                         </AnchorLink>
                         <AnchorLink className={`${selectedPage === Object.keys({contact})[0] ? "text-toddy-gold" : "text-magic-potion"}
-                            hover:text-toddy-gold transition-all`}
+                            hover:text-toddy-gold transition-all flex flex-wrap flex-col items-center font-montserrat text-md font-semibold`}
                             href={`#${Object.keys({contact})[0]}`}
                             onClick={() => setSelectedPage(contact)}
                             >
+                                <FaPhoneSquareAlt />
                                 {contact}
                         </AnchorLink>
                         
-                    </div>
                     <select onChange={onOptionChangeHandler} className="bg-magic-potion px-2 py-1 rounded-md font-montserrat text-sm hover:bg-tulip-yellow" >
                         {options.map((option, index) => {
                             return <option className='py-2' key={index} >

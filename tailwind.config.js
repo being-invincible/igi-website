@@ -19,7 +19,8 @@ module.exports = {
         "hero-image": "url(../public/hotel-bed-room.jpg)",
       }),
       fontFamily : {
-        montserrat: ["Montserrat", "serif"]
+        montserrat: ["Montserrat", "serif"],
+        lato: "lato"
       },
     },
   },

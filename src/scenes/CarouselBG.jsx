@@ -46,7 +46,7 @@ const CarouselBG = ({autoSlide = false}) => {
 
   return (
     <div id='home' className="min-w-full lg:min-h-screen relative group">
-        <div style={{backgroundImage: `url(${sliderData[currentSlide].image})`}} className="h-[75vh] lg:min-h-screen bg-center bg-cover duration-500 z-10">
+        <div style={{backgroundImage: `url(${sliderData[currentSlide].image})`}} className="h-[50vh] lg:min-h-screen bg-center bg-cover duration-500 z-10 flex items-center">
             
             <motion.div className='text-start w-full py-60 lg:py-60 font-serif px-[60px] lg:px-[350px]'
                     initial="hidden"
@@ -59,9 +59,11 @@ const CarouselBG = ({autoSlide = false}) => {
                     }}
             >
                 <div className='bg-black/25 p-5 rounded-xl'>
-                <h1 className='text-xl lg:text-3xl font-semibold mb-2 lg:mb-4'>{sliderData[currentSlide].heading}</h1>
+                <h1 className='text-xl lg:text-3xl font-semibold text-center mb-2 lg:mb-4 font-lato'>{sliderData[currentSlide].heading}</h1>
                 <p className='text-sm lg:text-md lg:text-lg font-normal mb-2.5 lg:mb-5'>{sliderData[currentSlide].desc}</p>
-                <button className='text-md py-1 px-3 lg:px-5 lg:py-1 text-magic-potion bg-white border-magic-potion border-2 rounded-full' >Learn More</button>
+                <div className="w-full flex place-content-center">
+                <button className='text-md py-1 px-3 lg:px-5 lg:py-1 text-magic-potion bg-white border-magic-potion border-2 rounded-full justify-center block place-content-center' >Learn More</button>
+                </div>
                 </div>
                 
             </motion.div>

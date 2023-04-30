@@ -30,10 +30,10 @@ const About = ({setSelectedPage, aboutTitle, aboutContent, button02, button03}) 
                     visible: {opacity:1, x:0}
                 }}
             >
-                <h2 className='sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900'>
+                <h2 className='sm:text-3xl text-2xl font-medium title-font mb-2 text-tulip-yellow'>
                     {aboutTitle}
                 </h2>
-                <div class="h-1 w-20 bg-magic-potion rounded"></div>
+                <div class="h-1 w-20 bg-tulip-yellow rounded"></div>
                 {/* <div className=''>
                     <LineGradient width='w-40' />
                 </div> */}

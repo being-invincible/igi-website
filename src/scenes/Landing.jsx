@@ -14,7 +14,7 @@ const Landing = ({setselectedPage, companyName, slogan, button01, button02}) => 
     return (
         <div>
             <section id='services'
-                class="h-[75vh] lg:min-h-screen relative bg-hero-image bg-cover bg-center bg-no-repeat"
+                class="h-[75vh] lg:min-h-screen relative bg-hero-image bg-cover bg-center bg-no-repeat bg-fixed"
                 >
                 
                 <div
