@@ -13,16 +13,19 @@ const CarouselBG = ({autoSlide = false}) => {
             image: "/411.jpg",
             heading: "IMRAN GULF INDUSTRIES. F. CO",
             desc: "Experience the luxury of premium quality with IGI. The trusted source for hotels and home utility linen made with world class fabrics",
+            id: "#about"
           },
           {
             image: "/bg-02.jpg",
             heading: "100% World Class Fabric",
-            desc: "This is the description of slide two Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+            desc: "Experience the opulent allure of Farbrics, where lavish elegance intertwines with a blissful embrace.",
+            id: "#fabrics"
           },
           {
             image: "/hero.jpg",
             heading: "Factory-Direct Source",
-            desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+            desc: "Every order and customer request, large or small, is handled with timely offer and suggestion.",
+            id: "#offering"
           },
     ];
 
@@ -45,8 +48,8 @@ const CarouselBG = ({autoSlide = false}) => {
       }, [currentSlide])
 
   return (
-    <div id='home' className="min-w-full lg:min-h-screen relative group">
-        <div style={{backgroundImage: `url(${sliderData[currentSlide].image})`}} className="h-[50vh] lg:min-h-screen bg-center bg-cover duration-500 z-10 flex items-center">
+    <div id='home' className="min-w-full lg:min-h-screen relative group snap-x snap-mandatory">
+        <div style={{backgroundImage: `url(${sliderData[currentSlide].image})`}} className="h-[50vh] lg:min-h-screen bg-center bg-cover duration-500 z-10 flex items-center snap-center">
             
             <motion.div className='text-start w-full py-60 lg:py-60 font-serif px-[60px] lg:px-[350px]'
                     initial="hidden"
@@ -62,7 +65,7 @@ const CarouselBG = ({autoSlide = false}) => {
                 <h1 className='text-xl lg:text-3xl font-semibold text-center mb-2 lg:mb-4 font-lato'>{sliderData[currentSlide].heading}</h1>
                 <p className='text-sm lg:text-md lg:text-lg font-normal mb-2.5 lg:mb-5'>{sliderData[currentSlide].desc}</p>
                 <div className="w-full flex place-content-center">
-                <button className='text-md py-1 px-3 lg:px-5 lg:py-1 text-magic-potion bg-white border-magic-potion border-2 rounded-full justify-center block place-content-center' >Learn More</button>
+                <a href={sliderData[currentSlide].id} className='text-md py-1 px-3 lg:px-5 lg:py-1 text-magic-potion bg-white border-magic-potion border-2 rounded-full justify-center block place-content-center' >Learn More</a>
                 </div>
                 </div>
                 

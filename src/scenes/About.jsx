@@ -12,13 +12,13 @@ const About = ({setSelectedPage, aboutTitle, aboutContent, button02, button03}) 
     return (
         <section
             id='about'
-            className='md:flex md:justify-between md:items-center md:h-full gap-16 py-4 lg:py-10 mx-5 lg:mx-20'
+            className='md:flex md:justify-between md:items-center md:h-full gap-16 py-0 lg:py-10 mx-5 lg:mx-20'
         >
 
         
 
         {/* About Section */}
-        <div className='order-1 lg:order-2 z-30 basis-4/5 mt-12 md:mt-32'>
+        <div className='order-1 lg:order-2 z-30 basis-4/5 mt-8 md:mt-32'>
             <motion.div
                 className=''
                 initial="hidden"

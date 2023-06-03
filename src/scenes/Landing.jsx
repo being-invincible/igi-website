@@ -87,7 +87,7 @@ const Landing = ({setselectedPage, companyName, slogan, button01, button02}) => 
                     </div>
                 {/* </div> */}
             </section>
-            <section
+            <section id='offering'
                 class="h-auto relative text-magic-potion bg-cover bg-center bg-no-repeat pt-20 px-5 lg:px-20">
                     <motion.div
                         class=""
