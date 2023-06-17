@@ -3,14 +3,85 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Link
+    Link,
+    useParams
 } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'
+
+// Json Data
+import en from '../lng/en.json'
+import ar from '../lng/ar.json'
+
+// slideToScroll CSS
+import '../components/slideToScroll/css/embla.css'
+import '../components/slideToScroll/css/sandbox.css'
+
+// slideToScroll Component
+import EmblaCarousel from '../components/slideToScroll/EmblaCarousel'
 
 
 const Product = ({ products }) => {
 
     const { t, i18n } = useTranslation();
+
+    const products1 = i18n.language === 'Arabic' ? ar['bed linen'].products : en['bed linen'].products;
+    const products2 = i18n.language === 'Arabic' ? ar['hotel supplies'].products : en['hotel supplies'].products;
+    const products3 = i18n.language === 'Arabic' ? ar['homes'].products : en['homes'].products;
+    const products4 = i18n.language === 'Arabic' ? ar['mattresses'].products : en['mattresses'].products;
+
+    // Extracting First Images from Each category of products & storing it as array
+    let img1 = []
+    let link01 = []
+    let title01 = []
+    // Pushing the values to 1st product's array
+    Object.keys(products1).forEach(key => {
+        img1.push(products1[key].img[0])
+        title01.push(products1[key].title)
+        link01.push(products1[key].link)
+    })
+
+    let img2 = []
+    let link02 = []
+    let title02 = []
+    // Pushing the values to 2nd product's array
+    Object.keys(products2).forEach(key => {
+        img2.push(products2[key].img[0])
+        title02.push(products2[key].title)
+        link02.push(products2[key].link)
+    })
+
+    let img3 = []
+    let link03 = []
+    let title03 = []
+    // Pushing the values to 3rd product's array
+    Object.keys(products3).forEach(key => {
+        img3.push(products3[key].img[0])
+        title03.push(products3[key].title)
+        link03.push(products3[key].link)
+    })
+
+    let img4 = []
+    let link04 = []
+    let title04 = []
+    // Pushing the values to 3rd product's array
+    Object.keys(products4).forEach(key => {
+        img4.push(products4[key].img[0])
+        title04.push(products4[key].title)
+        link04.push(products4[key].link)
+    })
+    
+
+    // Slides
+    const OPTIONS = {}
+    const SLIDE_COUNT1 = img1.length
+    const SLIDE_COUNT2 = img2.length
+    const SLIDE_COUNT3 = img3.length
+    const SLIDE_COUNT4 = img4.length
+    
+    const SLIDES1 = Array.from(Array(SLIDE_COUNT1).keys())
+    const SLIDES2 = Array.from(Array(SLIDE_COUNT2).keys())
+    const SLIDES3 = Array.from(Array(SLIDE_COUNT3).keys())
+    const SLIDES4 = Array.from(Array(SLIDE_COUNT4).keys())
 
     return (
 
@@ -24,15 +95,70 @@ const Product = ({ products }) => {
                     <p class="lg:w-1/2 w-full leading-relaxed text-magic-potion">Welcome to a world of luxurious elegance, softness, and comfort. Indulge in the sumptuousness of IGI's elegant, cozy and soft linens, curated to elevate your living and sleeping experience.</p>
                 </div>
 
+                {/* First Category of Products */}
                 <div class="mb-5">
+                    <Link to="/bed linen">
                     <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
-                        <h1 class="w-1/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900">Bed Linen</h1>
-                        <div class="h-0.5 w-3/4 lg:w-10/12 bg-gray-400 rounded"></div>
+                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Bed Linen</h1>
+                        <div class="h-0.5 w-2/4 lg:w-10/12 bg-gray-400 rounded"></div>
                     </div>
+                    </Link>
+                </div>
+                <div className='sandbox01'>
+                <section className="sandbox01__carousel">
+                  <EmblaCarousel slides={SLIDES1} options={OPTIONS} images={img1} titles={title01} links={link01} />
+                </section>
                 </div>
 
-                <div class="grid gap-5 grid-cols-1 md:grid-cols-4" >
+                {/* Second Category of Products */}
+                <div class="mt-10 mb-8">
+                    <Link to="/hotel supplies">
+                    <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
+                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Hotel Supplies</h1>
+                        <div class="h-0.5 w-2/4 lg:w-10/12 bg-gray-400 rounded"></div>
+                    </div>
+                    </Link>
+                </div>
 
+                <div className='sandbox01'>
+                <section className="sandbox01__carousel">
+                  <EmblaCarousel slides={SLIDES2} options={OPTIONS} images={img2} titles={title02} links={link02} />
+                </section>
+                </div>
+
+                {/* Third Category of Products */}
+                <div class="mt-10 mb-8">
+                    <Link to="/homes">
+                    <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
+                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Homes</h1>
+                        <div class="h-0.5 w-2/4 lg:w-10/12 bg-gray-400 rounded"></div>
+                    </div>
+                    </Link>
+                </div>
+
+                <div className='sandbox01'>
+                <section className="sandbox01__carousel">
+                  <EmblaCarousel slides={SLIDES3} options={OPTIONS} images={img3} titles={title03} links={link03} />
+                </section>
+                </div>
+
+                {/* Fourth Category of Products */}
+                <div class="mt-10 mb-8">
+                    <Link to="/mattresses">
+                    <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
+                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Mattresses</h1>
+                        <div class="h-0.5 w-2/4 lg:w-10/12 bg-gray-400 rounded"></div>
+                    </div>
+                    </Link>
+                </div>
+
+                <div className='sandbox01'>
+                <section className="sandbox01__carousel">
+                  <EmblaCarousel slides={SLIDES4} options={OPTIONS} images={img4} titles={title04} links={link04} />
+                </section>
+                </div>
+                
+                {/* <div class="grid gap-5 grid-cols-1 md:grid-cols-4" >
 
                     <div class="">
                         <Link to="/bed sheet">
@@ -208,16 +334,9 @@ const Product = ({ products }) => {
 
                     </div>
 
-                </div>
+                </div> */}
 
-                <div class="mt-10 mb-8">
-                    <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
-                        <h1 class="w-1/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900">Bath Linen</h1>
-                        <div class="h-0.5 w-3/4 lg:w-10/12 bg-gray-400 rounded"></div>
-                    </div>
-                </div>
-
-                <div class="grid gap-5 grid-cols-1 md:grid-cols-4" >
+                {/* <div class="grid gap-5 grid-cols-1 md:grid-cols-4" >
 
 
                     <div class="">
@@ -322,9 +441,9 @@ const Product = ({ products }) => {
 
                     </div>
 
-                </div>
+                </div> */}
 
-            </div>
+            {/* </div> */}
 
         {/* Best Selling
         <div id='best-selling' class="container py-10 lg:py-10">
@@ -398,8 +517,8 @@ const Product = ({ products }) => {
                     
                 </div>
 
-            </div> 
-        </div>*/}
+            </div> */}
+        </div>
         </section>
 
 

@@ -19,6 +19,8 @@ import Home from "./pages/home";
 import Products from "./pages/product";
 import EachProducts from "./scenes/EachProducts";
 import Contact from "./pages/contact";
+import BedLinen from "./pages/Categories";
+import Categories from "./pages/Categories";
 
 
 function App() {
@@ -54,7 +56,8 @@ function App() {
     <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/:productId" element={<EachProducts />}></Route>
+        <Route path="/:category" element={<Categories />}></Route>
+        <Route path="/:category/:productId" element={<EachProducts />}></Route>
       </Routes>
 
     </div>

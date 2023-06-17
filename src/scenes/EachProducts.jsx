@@ -18,6 +18,7 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
 
 import '../components/carousel/css/embla.css'
 import '../components/carousel/css/sandbox.css'
+import Navbar03 from '../components/Navbar03'
 
 
 const EachProducts = () => {
@@ -36,16 +37,17 @@ const EachProducts = () => {
 
   }
 
-  const { productId } = useParams();
+  const { category, productId } = useParams();
+  console.log(category,productId)
 
-  const fabric = i18n.language === 'Arabic' ? ar[productId].fabric : en[productId].fabric;
-  const design = i18n.language === 'Arabic' ? ar[productId].design : en[productId].design;
-  const colorCode = i18n.language === 'Arabic' ? ar[productId].colorCode : en[productId].colorCode;
-  const color = i18n.language === 'Arabic' ? ar[productId].color : en[productId].color;
-  const size = i18n.language === 'Arabic' ? ar[productId].size : en[productId].size;
-  const type = i18n.language === 'Arabic' ? ar[productId].type : en[productId].type;
+  const fabric = i18n.language === 'Arabic' ? ar[category].products[productId].fabric : en[category].products[productId].fabric;
+  const design = i18n.language === 'Arabic' ? ar[category].products[productId].design : en[category].products[productId].design;
+  const colorCode = i18n.language === 'Arabic' ? ar[category].products[productId].colorCode : en[category].products[productId].colorCode;
+  const color = i18n.language === 'Arabic' ? ar[category].products[productId].color : en[category].products[productId].color;
+  const size = i18n.language === 'Arabic' ? ar[category].products[productId].size : en[category].products[productId].size;
+  const type = i18n.language === 'Arabic' ? ar[category].products[productId].type : en[category].products[productId].type;
 
-  const img = i18n.language === 'Arabic' ? ar[productId].img : en[productId].img;
+  const img = i18n.language === 'Arabic' ? ar[category].products[productId].img : en[category].products[productId].img;
 
   // Slides
   const OPTIONS = {}
@@ -56,7 +58,7 @@ const EachProducts = () => {
 
   return (
     <>
-      <Navbar02 />
+      <Navbar03 />
       <div class="bg-white pt-20 lg:pt-28">
         <div class="">
           <div class="grid gap-8 grid-cols-1 md:grid-cols-2 p-0 lg:mx-20">

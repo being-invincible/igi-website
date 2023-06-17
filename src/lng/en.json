@@ -23,6 +23,313 @@
     "ship" : "2-4 day shipping",
     "shopNow" : "Quote Now",
     "comingSoon" : "Coming Soon",
+    "bed linen" : {
+        "title" : "IGI Bed Linen",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "products": {
+            "bed sheet" : {
+                "title": "Bed Sheets",
+                "category" : "Bed Linen",
+                "description" : "Our collection of Bed sheets are 5 star hotels approved, and have stood the test of stingent quality measures. Available in Percale and Satin fabrics, these come in various shades and design, and are suitable to adorn a variety of household tastes and decor.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["160 x 260", "240 x 260"],
+                "type" : ["Single", "King"],
+                "link" : "/bed linen/bed sheet",
+                "img" : ["/bs.jpeg","https://www.itchotels.com/content/dam/itchotels/in/umbrella/sleeep-boutique/image/product-details/desktop/Bedsheet.jpg"]
+            },
+            "fitted bed sheet" : {
+                "title": "Fitted Bed Sheets",
+                "category" : "Bed Linen",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/bed linen/fitted bed sheet",
+                "img" : ["/fittedbs.jpeg", "https://img1.exportersindia.com/product_images/bc-full/2020/6/7394823/fitted-bed-sheet-1591516729-5469637.jpeg"]
+            },
+            "duvet" : {
+                "title": "Duvets",
+                "category" : "Bed Linen",
+                "description" : "A duvet is only good as it's filling. The 11G1' duvets come in a variety of sizes and are crafted from fillings made from natural fibers. The natural duvets have the benefits of being both durable and naturally breathable keeping you cozy. The synthetic fiber-filling duvets are designed to provide the feel and comfort of a natural down duvet. They combine soft textures and weightless warmth and are hypoallergenic.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["155 x 235", "235 x 255"],
+                "type" : ["Single", "King"],
+                "link" : "/bed linen/duvet",
+                "img" : ["/duvet.jpg", "https://www.premierinnathome.com/wp-content/uploads/2021/02/Duvet-Image-1-Hero-1-scaled.jpg"]
+            },
+            "duvet covers" : {
+                "title": "Duvet Covers",
+                "category" : "Bed Linen",
+                "description" : "Our collection of Duvet covers are 5 star hotels approved and have stood the test of stringent quality measures.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],"size" : ["160 x 240", "240 x 260"],
+                "type" : ["Single", "King"],
+                "link" : "/bed linen/duvet covers",
+                "img" : ["https://www.sleepfoundation.org/wp-content/uploads/2021/07/What-is-a-Duvet-Cover.jpg", "/duvetCover.jpg"]
+            },
+            "mattress protectors" : {
+                "title": "Mattress Protectors",
+                "category" : "Bed Linen",
+                "description" : "A mattress protector is a piece of bedding that sits on top of a mattress. Preserve its QUALITY, Protect from STAIN, and Prolong its USE. • Fabric used is 100% Terry Cotton. • 100% Waterproof PU underlayer. • Extra wide 2'' Elastics on 4 corners for a firm grip. • Machine Washable and easy to maintain.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 200 x 30", "120 x 200 x 30", "160 x 200 x 30", "200 x 200 x 30"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/bed linen/mattress protectors",
+                "img" : ["https://m.media-amazon.com/images/I/810Kq8+YGvL.jpg", "https://reviewed-com-res.cloudinary.com/image/fetch/s--7wShQDEp--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_1200/https://reviewed-production.s3.amazonaws.com/1629923429420/mattressprotectorhero.jpg"]
+            },
+            "mattress encasement protectors" : {
+                "title": "Mattress Encasement Protectors",
+                "category" : "Bed Linen",
+                "description" : "A mattress protector is an item that encases totally over a mattress to protect it. • Fabric used is 100% Terry Cotton. • Bed bug-proof and waterproof fabric encase the entire mattress • Smooth hypoallergenic surface is quiet and will not change how a mattress feels. • 100% waterproof with watertight zipper and sealing bug flap.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 200 x 30", "120 x 200 x 30", "160 x 200 x 30", "200 x 200 x 30"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/bed linen/mattress encasement protectors",
+                "img" : ["https://cdn.shopify.com/s/files/1/0554/4519/2874/products/BedBugprotector_1400x.jpg?v=1623856441","https://m.media-amazon.com/images/I/81v9jatT9ZS._AC_UF1000,1000_QL80_.jpg"]
+            },
+            "bed runner" : {
+                "title": "Bed Runner",
+                "category" : "Bed Linen",
+                "description" : "Bed runner is a perfect and ideal bedroom bed decoration. It is comfortable, soft, durable and resistant to fading. Fine professional stitching and delicate edging make it more grading and durable.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["170 x 45", "260 x 45"],
+                "type" : ["Queen", "King"],
+                "link" : "/bed linen/bed runner",
+                "img" : ["/bedrunner.jpg"]
+            },
+            "bed skirt" : {
+                "title": "Bed Skirt",
+                "category" : "Bed Linen",
+                "description" : "A bed skirt is a piece of decorative fabric that is placed between the mattress and the box spring of a bed. Easy to fit and wrap-around style. The wrap-around bed skirt is three-sided skirt made for perfect finishing touch to your bed set.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 200", "120 x 200", "180 x 200", "200 x 200"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/bed linen/bed skirt",
+                "img" : ["/bed-skirt.jpeg", "https://secure.img1-fg.wfcdn.com/im/94276422/compr-r85/2080/208013024/wayfair-basics-1800-series-14-bed-skirt.jpg"]
+            },
+            "pillow" : {
+                "title": "Pillow",
+                "category" : "Bed Linen",
+                "description" : "Our range of pillows is very feather soft, fluffy, and sweet dreams approved. Our expertise in the field ensures the 'IGI' pillows feature improved filling for maximum comfort, and peaceful sleeping hours. We also offer the convenience of a pillow menu, with a selection of pillows in varying sizes and designs to cater to the versatile needs of 5 star luxury hotels.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["50 x 75", "50 x 90"],
+                "type" : ["Queen", "King"],
+                "link" : "/bed linen/pillow",
+                "img" : ["/pillow.jpeg","https://upload.wikimedia.org/wikipedia/commons/a/ad/Pillows_on_a_hotel_bed.jpg"]
+            },
+            "pillow cases" : {
+                "title": "Pillow Cases",
+                "category" : "Bed Linen",
+                "description" : "A pillow case is a removable cover for a pillow. It is washable and easily removable cloth over. Our company ensures a soft and luxurious feel.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["50 x 75", "50 x 90"],
+                "type" : ["Queen", "King"],
+                "link" : "/bed linen/pillow cases",
+                "img" : ["https://m.media-amazon.com/images/I/51AmxIXD1RL.jpg","https://m.media-amazon.com/images/I/61qXIsijgpL._AC_UF1000,1000_QL80_.jpg"]
+            },
+            "pillow protectors" : {
+                "title": "Pillow Protectors",
+                "category" : "Bed Linen",
+                "description" : "• Available in Poly cotton Terry fabric Ultra-soft 100% waterproof PU coated Fabric. • Easy to remove and wash. • Zippered closure for extra safety and comfort. • Treated against Dust mites and Microbial.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["50 x 75", "50 x 90"],
+                "type" : ["Queen", "King"],
+                "link" : "/bed linen/pillow protectors",
+                "img" : ["https://www.soakandsleep.com/media/catalog/product/c/o/cotton-protectors-base.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=265&width=265&canvas=265:265", "https://mohansluxury.com/wp-content/uploads/2023/01/mohans-pillow-protector.jpg"]
+            }
+        }
+    },
+    "hotel supplies" : {
+        "title" : "IGI Hotel Supplies",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "products": {
+            "bath towel" : {
+                "title": "Bath Towel",
+                "category" : "Hotel Supplies",
+                "description" : "Our collection of Bed sheets are 5 star hotels approved, and have stood the test of stingent quality measures. Available in Percale and Satin fabrics, these come in various shades and design, and are suitable to adorn a variety of household tastes and decor.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["160 x 260", "240 x 260"],
+                "type" : ["Single", "King"],
+                "link" : "/hotel supplies/bath towel",
+                "img" : ["https://images.unsplash.com/photo-1574421233376-06f2ccf017f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"]
+            },
+            "hand towel" : {
+                "title": "Hand Towel",
+                "category" : "Hotel Supplies",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/hotel supplies/hand towel",
+                "img" : ["https://img.freepik.com/free-photo/close-up-towels-held-hands_23-2148223773.jpg?w=740&t=st=1682854464~exp=1682855064~hmac=33e36da94a76d0ce7bac85ba2bc687ff5d7aa8774ed2766b76dd2d0dd28d8cdd"]
+            },
+            "face towel" : {
+                "title": "Face Towel",
+                "category" : "Hotel Supplies",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/hotel supplies/face towel",
+                "img" : ["https://images.pexels.com/photos/3872899/pexels-photo-3872899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+            },
+            "pool towel" : {
+                "title": "Pool Towel",
+                "category" : "Hotel Supplies",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/hotel supplies/pool towel",
+                "img" : ["https://img.freepik.com/free-photo/luxury-pool-poolside-outdoor-blue_1203-5577.jpg?w=740&t=st=1682854987~exp=1682855587~hmac=fe3f4af6d1d76ff86b86b8088361412ad9c824e3574fd9ff6fd24390b0cd2a94"]
+            },
+            "bath mat" : {
+                "title": "Bath Mat",
+                "category" : "Hotel Supplies",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/hotel supplies/bath mat",
+                "img" : ["https://img.freepik.com/free-photo/white-cotton-bathroom-mat-home-decor_53876-133338.jpg?w=740&t=st=1682855024~exp=1682855624~hmac=cf378488a675fad58a5f752f6f4b7d85c7c43b0ee24a32729ad8f58f485d7f32"]
+            },
+            "bathrobe" : {
+                "title": "Bathrobe",
+                "category" : "Hotel Supplies",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/hotel supplies/bathrobe",
+                "img" : ["https://images.pexels.com/photos/306739/pexels-photo-306739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+            },
+            "hotel slippers" : {
+                "title": "Hotel Slippers",
+                "category" : "Hotel Supplies",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "link" : "/hotel supplies/hotel slippers",
+                "img" : ["https://img.freepik.com/premium-photo/white-home-slippers-lying-blue-rug_537415-92.jpg?w=740"]
+            }
+        }
+    },
+    "homes" : {
+        "title" : "IGI Homes",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "products": {
+            "bed sheet" : {
+                "title": "Bed Sheets",
+                "category" : "Homes",
+                "description" : "Our collection of Bed sheets are 5 star hotels approved, and have stood the test of stingent quality measures. Available in Percale and Satin fabrics, these come in various shades and design, and are suitable to adorn a variety of household tastes and decor.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["160 x 260", "240 x 260"],
+                "type" : ["Single", "King"],
+                "link" : "/homes/bed sheet",
+                "img" : ["/bs.jpeg","https://www.itchotels.com/content/dam/itchotels/in/umbrella/sleeep-boutique/image/product-details/desktop/Bedsheet.jpg"]
+            },
+            "fitted bed sheet" : {
+                "title": "Fitted Bed Sheets",
+                "category" : "Homes",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "img" : ["/fittedbs.jpeg", "https://img1.exportersindia.com/product_images/bc-full/2020/6/7394823/fitted-bed-sheet-1591516729-5469637.jpeg"]
+            }
+        }
+    },
+    "mattresses" : {
+        "title" : "IGI Mattresses",
+        "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "products": {
+            "bed sheet" : {
+                "title": "Bed Sheets",
+                "category" : "Mattresses",
+                "description" : "Our collection of Bed sheets are 5 star hotels approved, and have stood the test of stingent quality measures. Available in Percale and Satin fabrics, these come in various shades and design, and are suitable to adorn a variety of household tastes and decor.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["160 x 260", "240 x 260"],
+                "type" : ["Single", "King"],
+                "link" : "/Mattresses/bed sheet",
+                "img" : ["/bs.jpeg","https://www.itchotels.com/content/dam/itchotels/in/umbrella/sleeep-boutique/image/product-details/desktop/Bedsheet.jpg"]
+            },
+            "fitted bed sheet" : {
+                "title": "Fitted Bed Sheets",
+                "category" : "Mattresses",
+                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
+                "fabric" : ["Percale", "Satin"],
+                "design" : ["Plain", "Striped"],
+                "colorCode" : ["#ffffff"],
+                "color" : ["White"],
+                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
+                "type" : ["Single 01", "Single 02", "Queen", "King"],
+                "img" : ["/fittedbs.jpeg", "https://img1.exportersindia.com/product_images/bc-full/2020/6/7394823/fitted-bed-sheet-1591516729-5469637.jpeg"]
+            }
+        }
+    },
     "bed sheet" : {
         "title": "Bed Sheets",
         "category" : "Bed Linen",
