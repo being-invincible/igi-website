@@ -64,7 +64,7 @@ const EachProducts = () => {
           <div class="grid gap-8 grid-cols-1 md:grid-cols-2 p-0 lg:mx-20">
             {/* <!-- images - start --> */}
             <div class="space-y-4">
-              <div class={`relative rounded-lg bg-[url(${t(`${productId}.img`)})]`}>
+              <div class={`relative rounded-lg bg-[url(${t(`${category}.products.${productId}.img`)})]`}>
                 {/* <img src={t(`${productId}.img.0`)} loading="lazy" alt="product" class="h-[520px] w-full object-cover object-center" />
 
                 <span class="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">{t("sale")}</span> */}
@@ -79,8 +79,8 @@ const EachProducts = () => {
             <div class="px-5 md:px-0 pb-8">
               {/* <!-- name - start --> */}
               <div class="mb-2 md:mb-5">
-                <span class="mb-2 inline-block uppercase text-magic-potion">{t(`${productId}.category`)}</span>
-                <h2 class="text-2xl font-bold text-tulip-yellow lg:text-3xl mb-2">{t(`${productId}.title`)}</h2>
+                <span class="mb-2 inline-block uppercase text-magic-potion">{t(`${category}.products.${productId}.category`)}</span>
+                <h2 class="text-2xl font-bold text-tulip-yellow lg:text-3xl mb-2">{t(`${category}.products.${productId}.title`)}</h2>
                 <div class="h-1 w-20 bg-tulip-yellow rounded"></div>
               </div>
               {/* <!-- name - end --> */}
@@ -120,7 +120,7 @@ const EachProducts = () => {
                 {/* <div class="mb-3 text-lg font-semibold text-gray-500">{t("productDescriptionTitle")} :</div> */}
 
                 <p class="text-magic-potion">
-                  {t(`${productId}.description`)}
+                  {t(`${category}.products.${productId}.description`)}
                 </p>
               </div>
               {/* <!-- description - end --> */}

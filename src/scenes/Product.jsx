@@ -19,15 +19,18 @@ import '../components/slideToScroll/css/sandbox.css'
 // slideToScroll Component
 import EmblaCarousel from '../components/slideToScroll/EmblaCarousel'
 
+import {AiOutlineRight, AiOutlineDown} from 'react-icons/ai'
+
 
 const Product = ({ products }) => {
 
     const { t, i18n } = useTranslation();
 
     const products1 = i18n.language === 'Arabic' ? ar['bed linen'].products : en['bed linen'].products;
-    const products2 = i18n.language === 'Arabic' ? ar['hotel supplies'].products : en['hotel supplies'].products;
+    const products2 = i18n.language === 'Arabic' ? ar['guest amenities'].products : en['guest amenities'].products;
     const products3 = i18n.language === 'Arabic' ? ar['homes'].products : en['homes'].products;
     const products4 = i18n.language === 'Arabic' ? ar['mattresses'].products : en['mattresses'].products;
+    const products5 = i18n.language === 'Arabic' ? ar['hotel supplies'].products : en['hotel supplies'].products;
 
     // Extracting First Images from Each category of products & storing it as array
     let img1 = []
@@ -69,6 +72,16 @@ const Product = ({ products }) => {
         title04.push(products4[key].title)
         link04.push(products4[key].link)
     })
+
+    let img5 = []
+    let link05 = []
+    let title05 = []
+    // Pushing the values to 3rd product's array
+    Object.keys(products5).forEach(key => {
+        img5.push(products5[key].img[0])
+        title05.push(products5[key].title)
+        link05.push(products5[key].link)
+    })
     
 
     // Slides
@@ -77,11 +90,13 @@ const Product = ({ products }) => {
     const SLIDE_COUNT2 = img2.length
     const SLIDE_COUNT3 = img3.length
     const SLIDE_COUNT4 = img4.length
+    const SLIDE_COUNT5 = img5.length
     
     const SLIDES1 = Array.from(Array(SLIDE_COUNT1).keys())
     const SLIDES2 = Array.from(Array(SLIDE_COUNT2).keys())
     const SLIDES3 = Array.from(Array(SLIDE_COUNT3).keys())
     const SLIDES4 = Array.from(Array(SLIDE_COUNT4).keys())
+    const SLIDES5 = Array.from(Array(SLIDE_COUNT5).keys())
 
     return (
 
@@ -100,7 +115,11 @@ const Product = ({ products }) => {
                     <Link to="/bed linen">
                     <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
                         <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Bed Linen</h1>
-                        <div class="h-0.5 w-2/4 lg:w-10/12 bg-gray-400 rounded"></div>
+                        <div class="h-0.5 w-2/4 lg:w-8/12 bg-gray-400 rounded"></div>
+                        <div className='hidden md:flex md:flex-row items-center justify-end w-1/4 lg:w-2/12'>
+                        <h2 className="text-right mr-4">View More</h2>
+                        <AiOutlineRight />
+                        </div>
                     </div>
                     </Link>
                 </div>
@@ -108,14 +127,25 @@ const Product = ({ products }) => {
                 <section className="sandbox01__carousel">
                   <EmblaCarousel slides={SLIDES1} options={OPTIONS} images={img1} titles={title01} links={link01} />
                 </section>
+
+                <Link to="/bed linen">
+                <div className='py-5 flex flex-row items-center justify-center w-full md:hidden'>
+                    <h2 className="text-right mr-4">View More</h2>
+                    <AiOutlineDown className='animate-bounce' />
+                </div>
+                </Link>
                 </div>
 
                 {/* Second Category of Products */}
                 <div class="mt-10 mb-8">
-                    <Link to="/hotel supplies">
+                    <Link to="/guest amenities">
                     <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
-                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Hotel Supplies</h1>
-                        <div class="h-0.5 w-2/4 lg:w-10/12 bg-gray-400 rounded"></div>
+                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Guest Amenities</h1>
+                        <div class="h-0.5 w-2/4 lg:w-8/12 bg-gray-400 rounded"></div>
+                        <div className='hidden md:flex md:flex-row items-center justify-end w-1/4 lg:w-2/12'>
+                        <h2 className="text-right mr-4">View More</h2>
+                        <AiOutlineRight />
+                        </div>
                     </div>
                     </Link>
                 </div>
@@ -124,14 +154,26 @@ const Product = ({ products }) => {
                 <section className="sandbox01__carousel">
                   <EmblaCarousel slides={SLIDES2} options={OPTIONS} images={img2} titles={title02} links={link02} />
                 </section>
+
+                <Link to="/guest amenities">
+                <div className='py-5 flex flex-row items-center justify-center w-full md:hidden'>
+                    <h2 className="text-right mr-4">View More</h2>
+                    <AiOutlineDown className='animate-bounce' />
+                </div>
+                </Link>
                 </div>
 
                 {/* Third Category of Products */}
+                <div>
                 <div class="mt-10 mb-8">
                     <Link to="/homes">
                     <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
                         <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Homes</h1>
-                        <div class="h-0.5 w-2/4 lg:w-10/12 bg-gray-400 rounded"></div>
+                        <div class="h-0.5 w-2/4 lg:w-8/12 bg-gray-400 rounded"></div>
+                        <div className='hidden md:flex md:flex-row items-center justify-end w-1/4 lg:w-2/12'>
+                        <h2 className="text-right mr-4">View More</h2>
+                        <AiOutlineRight />
+                        </div>
                     </div>
                     </Link>
                 </div>
@@ -142,12 +184,25 @@ const Product = ({ products }) => {
                 </section>
                 </div>
 
+                <Link to="/homes">
+                <div className='py-5 flex flex-row items-center justify-center w-full md:hidden'>
+                    <h2 className="text-right mr-4">View More</h2>
+                    <AiOutlineDown className='animate-bounce' />
+                </div>
+                </Link>
+                </div>
+
                 {/* Fourth Category of Products */}
+                <div>
                 <div class="mt-10 mb-8">
                     <Link to="/mattresses">
                     <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
                         <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Mattresses</h1>
-                        <div class="h-0.5 w-2/4 lg:w-10/12 bg-gray-400 rounded"></div>
+                        <div class="h-0.5 w-2/4 lg:w-8/12 bg-gray-400 rounded"></div>
+                        <div className='hidden md:flex md:flex-row items-center justify-end w-1/4 lg:w-2/12'>
+                        <h2 className="text-right mr-4">View More</h2>
+                        <AiOutlineRight />
+                        </div>
                     </div>
                     </Link>
                 </div>
@@ -156,6 +211,43 @@ const Product = ({ products }) => {
                 <section className="sandbox01__carousel">
                   <EmblaCarousel slides={SLIDES4} options={OPTIONS} images={img4} titles={title04} links={link04} />
                 </section>
+                </div>
+
+                <Link to="/mattresses">
+                <div className='py-5 flex flex-row items-center justify-center w-full md:hidden'>
+                    <h2 className="text-right mr-4">View More</h2>
+                    <AiOutlineDown className='animate-bounce' />
+                </div>
+                </Link>
+                </div>
+
+                {/* Fifth Category of Products */}
+                <div className=''>
+                <div class="mt-10 mb-8">
+                    <Link to="/hotel supplies">
+                    <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
+                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Hotel supplies</h1>
+                        <div class="h-0.5 w-2/4 lg:w-8/12 bg-gray-400 rounded"></div>
+                        <div className='hidden md:flex md:flex-row items-center justify-end w-1/4 lg:w-2/12'>
+                        <h2 className="text-right mr-4">View More</h2>
+                        <AiOutlineRight />
+                        </div>
+                    </div>
+                    </Link>
+                </div>
+
+                <div className='sandbox01'>
+                <section className="sandbox01__carousel">
+                  <EmblaCarousel slides={SLIDES5} options={OPTIONS} images={img5} titles={title05} links={link05} />
+                </section>
+                </div>
+
+                <Link to="/hotel supplies">
+                <div className='py-5 flex flex-row items-center justify-center w-full md:hidden'>
+                    <h2 className="text-right mr-4">View More</h2>
+                    <AiOutlineDown className='animate-bounce' />
+                </div>
+                </Link>
                 </div>
                 
                 {/* <div class="grid gap-5 grid-cols-1 md:grid-cols-4" >

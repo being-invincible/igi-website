@@ -73,7 +73,7 @@
   .embla01-thumbs__container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-left: calc(var(--thumbs-slide-spacing) * -1);
     margin-right: calc(var(--thumbs-slide-spacing) * -1);
   }

@@ -127,7 +127,7 @@ const Navbar = ({ selectedPage, setSelectedPage, home, about, products, contact,
                         {/* Menu Items */}
                         <div className='flex flex-col gap-10 mt-10 mx-20 pt-10 text-2xl items-center'>
                             <AnchorLink className={`${selectedPage === Object.keys({ home })[0] ? "text-toddy-gold" : "text-magic-potion"}
-                            hover:text-toddy-gold transition-all flex flex-wrap flex-col items-center font-montserrat text-md font-semibold`}
+                            hover:text-toddy-gold transition-all flex flex-wrap flex-col items-center text-center font-montserrat text-md font-semibold`}
                                 href={`#${Object.keys({ home })[0]}`}
                                 onClick={() => {setSelectedPage('home'); setIsMenuToggled(!isMenuToggled)}}
                             >
