@@ -56,7 +56,7 @@ const Fabric = () => {
                             <img
                                 alt="Second Fabric - Plain Sateen"
                                 class="object-cover aspect-square group-hover:scale-110 transition duration-500 ease-in-out"
-                                src="/satin.jpeg"
+                                src="https://images.pexels.com/photos/8465949/pexels-photo-8465949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             />
                         </div>
                         {/* </Link> */}

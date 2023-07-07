@@ -27,9 +27,12 @@ const Categories = () => {
         <section className='bg-alabaster mt-20 px-5 md:px-20 py-10'>
 
             {/* Brand Heading */}
-            <div class="lg:w-1/2 w-full mb-5 lg:mb-8">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-tulip-yellow">{t(`${category}.title`)}</h1>
+            <div className="flex flex-row items-center mb-5 lg:mb-8 gap-5">
+            <a href='/'><img className='w-16 lg:w-20' src="logo_footer.jpg" alt="Logo" /></a>
+            <div class="">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-tulip-yellow uppercase">{t(`${category}.title`)}</h1>
                 <div class="h-1 w-20 bg-tulip-yellow rounded"></div>
+            </div>
             </div>
 
             {/* About the Brand */}

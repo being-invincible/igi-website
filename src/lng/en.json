@@ -24,11 +24,11 @@
     "shopNow" : "Quote Now",
     "comingSoon" : "Coming Soon",
     "bed linen" : {
-        "title" : "IGI Bed Linen",
+        "title" : "IGI Linens",
         "description" : "Imran Gulf Industries is a well-known company that specializes in the creation of high-quality bed linen. We provide a comprehensive assortment of bed linen products, such as bedsheets, pillowcases, duvet covers, and more. We are  known for using premium materials and talented craftsmen to make its bed linen durable, comfortable, and aesthetically beautiful. Our designs cater to a wide range of tastes and preferences, making their goods suited for both residential and business contexts. IGI has a reputation for producing high-quality bed linen that combines elegance, functionality, and longevity.",
         "products": {
-            "bed sheet" : {
-                "title": "Bed Sheets",
+            "flat bed sheet" : {
+                "title": "Flat Bed Sheets",
                 "category" : "Bed Linen",
                 "description" : "Our collection of Bed sheets are 5 star hotels approved, and have stood the test of stingent quality measures. Available in Percale and Satin fabrics, these come in various shades and design, and are suitable to adorn a variety of household tastes and decor.",
                 "fabric" : ["Percale", "Satin"],
@@ -37,7 +37,7 @@
                 "color" : ["White"],
                 "size" : ["160 x 260", "240 x 260"],
                 "type" : ["Single", "King"],
-                "link" : "/bed linen/bed sheet",
+                "link" : "/bed linen/flat bed sheet",
                 "img" : ["/bs.jpeg","https://www.itchotels.com/content/dam/itchotels/in/umbrella/sleeep-boutique/image/product-details/desktop/Bedsheet.jpg"]
             },
             "fitted bed sheet" : {
@@ -218,12 +218,12 @@
                 "title": "Bath Towel",
                 "category" : "Guest Amenities",
                 "description" : "Enjoy maximum luxury with our premium bath towel, which is made of ultra -Soft, absorbent Cotton for a genuinely luxurious bathing experience.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : ["Terry Cotton"],
+                "design" : ["Plain","Customized"],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
-                "size" : ["50*180"],
-                "type" : ["50*180"],
+                "size" : ["70*140","80*160"],
+                "type" : ["70*140","80*160"],
                 "link" : "/guest amenities/bath towel",
                 "img" : ["https://images.unsplash.com/photo-1574421233376-06f2ccf017f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"]
             },
@@ -231,12 +231,12 @@
                 "title": "Hand Towel",
                 "category" : "Guest Amenities",
                 "description" : "Indulge in luxury with our premium hand towel which is made of the finest long - staple cotton for unparalleled softness and absorbency, ensuring a pampering experience every time you reach for it.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : ["Terry Cotton"],
+                "design" : ["Plain","Customized"],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
-                "size" : ["70*140", "80*160"],
-                "type" : ["70*140", "80*160"],
+                "size" : ["50*80"],
+                "type" : ["50*80"],
                 "link" : "/guest amenities/hand towel",
                 "img" : ["https://img.freepik.com/free-photo/close-up-towels-held-hands_23-2148223773.jpg?w=740&t=st=1682854464~exp=1682855064~hmac=33e36da94a76d0ce7bac85ba2bc687ff5d7aa8774ed2766b76dd2d0dd28d8cdd"]
             },
@@ -244,25 +244,25 @@
                 "title": "Face Towel",
                 "category" : "Guest Amenities",
                 "description" : "The Premium face towel is made of the highest quality materials and is designed to deliver a Soothing and Caressing experience for your face.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : ["Terry Cotton"],
+                "design" : ["Plain","Customized"],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : ["30*30"],
                 "type" : ["30*30"],
                 "link" : "/guest amenities/face towel",
-                "img" : ["https://images.pexels.com/photos/3872899/pexels-photo-3872899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+                "img" : ["/face-towel.png"]
             },
             "bath mat" : {
                 "title": "Bathroom Mat",
                 "category" : "Guest Amenities",
                 "description" : "The star hotel bathroom mat is a plush, white, and opulent accessory that offers a Soft and Pleasant Stepping surface and adds a dash of class to the bathroom decor.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : ["Terry Cotton"],
+                "design" : ["Plain","Customized"],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
-                "size" : ["50*180"],
-                "type" : ["50*180"],
+                "size" : ["50*80"],
+                "type" : ["50*80"],
                 "link" : "/guest amenities/bath mat",
                 "img" : ["https://img.freepik.com/free-photo/white-cotton-bathroom-mat-home-decor_53876-133338.jpg?w=740&t=st=1682855024~exp=1682855624~hmac=cf378488a675fad58a5f752f6f4b7d85c7c43b0ee24a32729ad8f58f485d7f32"]
             },
@@ -270,8 +270,8 @@
                 "title": "Bathrobe",
                 "category" : "Guest Amenities",
                 "description" : "Our luxury bathrobe offers unrivaled Comfort and elegance, enveloping you in a cloud-like embrace to transform your daily routine into a Spa-like vacation.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : ["Terry Cotton","Waffle Cotton"],
+                "design" : ["Plain","Customized"],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : ["Small","Medium","Large","Extra Large","XX Large"],
@@ -279,38 +279,25 @@
                 "link" : "/guest amenities/bathrobe",
                 "img" : ["https://images.pexels.com/photos/306739/pexels-photo-306739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
             },
-            "slippers 1ml" : {
-                "title": "Slippers 1ml",
-                "category" : "Guest Amenities",
-                "description" : "A fitted bed sheet is a piece of material with elasticated corners designed to sit on top of the mattress and underneath you when you're in bed.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
-                "colorCode" : ["#ffffff"],
-                "color" : ["White"],
-                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
-                "type" : ["Single 01", "Single 02", "Queen", "King"],
-                "link" : "/guest amenities/slippers 1ml",
-                "img" : ["https://img.freepik.com/premium-photo/hotel-slippers-blue-background-copy-space_51524-21092.jpg"]
-            },
-            "slippers 4ml" : {
-                "title": "Slippers 4ml",
+            "slippers" : {
+                "title": "Slippers",
                 "category" : "Guest Amenities",
                 "description" : "These 5-star quality slippers are made of the finest materials and feature a plush, velvety exterior for a luxurious experience.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
-                "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
-                "type" : ["Single 01", "Single 02", "Queen", "King"],
-                "link" : "/guest amenities/slippers 4ml",
+                "size" : ["1ml", "4ml", "5ml"],
+                "type" : ["1ml", "4ml", "5ml"],
+                "link" : "/guest amenities/slippers",
                 "img" : ["https://img.freepik.com/premium-photo/white-home-slippers-lying-blue-rug_537415-92.jpg?w=740"]
             },
             "body lotion" : {
                 "title": "Body Lotion",
                 "category" : "Guest Amenities",
                 "description" : "Our 5-star body lotion offers a luxurious sensation, with a rich and velvety formula that deeply nourishes and hydrates skin, leaving it soft and supple.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
@@ -322,8 +309,8 @@
                 "title": "Shampoo",
                 "category" : "Guest Amenities",
                 "description" : "Our 5-star quality shampoo offers ultimate luxury for your hair, with a blend of premium ingredients to cleanse, nourish, and revitalize. The rich lather leaves your hair soft, glossy, and fragrant.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
@@ -335,21 +322,21 @@
                 "title": "Soap",
                 "category" : "Guest Amenities",
                 "description" : "Our five-star quality soap is crafted with premium ingredients to provide a luxurious bathing experience. Rich, creamy lather gently cleanses and nourishes skin, leaving it soft, supple, and scented.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
                 "type" : [],
                 "link" : "/guest amenities/soap",
-                "img" : ["https://images.pexels.com/photos/206299/pexels-photo-206299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+                "img" : ["/soap.png"]
             },
             "shover gel" : {
                 "title": "Shover Gel",
                 "category" : "Guest Amenities",
                 "description" : "Our 5-star quality shower gel provides a luxurious experience with rich, velvety lather that gently cleanses and nourishes skin, leaving it soft, smooth and fragrant. Crafted with the finest ingredients and infused with exotic botanical extracts, it provides an opulent bathing ritual.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
@@ -361,8 +348,8 @@
                 "title": "Shover Cap",
                 "category" : "Guest Amenities",
                 "description" : "Our 5-star quality shower cap is made of the finest materials, providing waterproof and durable protection for your hair. It has an elasticized band for a comfortable fit and an elegant aesthetic.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
@@ -374,21 +361,21 @@
                 "title": "Shaving kit",
                 "category" : "Guest Amenities",
                 "description" : "This 5-star kit includes a precision-engineered razor, a rich, high-performance shaving cream, and an irritation-free shave. It lathers into a velvety foam, nourishing and hydrating the skin, leaving it smooth and invigorated.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
                 "type" : [],
                 "link" : "/guest amenities/shaving kit",
-                "img" : ["https://images.pexels.com/photos/8015783/pexels-photo-8015783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+                "img" : ["/shaving-kit.png"]
             },
             "dental kit" : {
                 "title": "Dental kit",
                 "category" : "Guest Amenities",
                 "description" : "Our deluxe 5-star dental kit provides the ultimate oral care experience with a high-quality toothbrush and premium toothpaste enriched with advanced whitening and cavity-fighting ingredients.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
@@ -400,47 +387,47 @@
                 "title": "Comb",
                 "category" : "Guest Amenities",
                 "description" : "Our 5-star quality comb is a pinnacle of grooming perfection, made from the finest materials with precision-engineered teeth for luxuriously smooth and tangle-free grooming.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
                 "type" : [],
                 "link" : "/guest amenities/comb",
-                "img" : ["https://images.pexels.com/photos/4857706/pexels-photo-4857706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+                "img" : ["/comb.png"]
             },
             "shoe shine" : {
                 "title": "Shoe shine",
                 "category" : "Guest Amenities",
                 "description" : "Our five-star quality shoe shine service restores the natural luster of your shoes using time-honored techniques and premium products. Each step is executed with unrivaled attention to detail, leaving your footwear with an unparalleled shine.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
                 "type" : [],
                 "link" : "/guest amenities/shoe shine",
-                "img" : ["https://st4.depositphotos.com/6235482/23719/i/600/depositphotos_237192690-stock-photo-shoe-polish-shoe-brush-isolated.jpg"]
+                "img" : ["/shoe-shine.png"]
             },
             "loofa" : {
                 "title": "Loofa",
                 "category" : "Guest Amenities",
                 "description" : "Our 5-star quality loofa provides a gentle yet invigorating exfoliation, leaving skin velvety smooth and revitalized. It is made from premium, ultra-soft organic cotton and has long-lasting durability, making it the perfect companion for daily self-care.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
                 "type" : [],
                 "link" : "/guest amenities/shaving kit",
-                "img" : ["https://images.pexels.com/photos/7814806/pexels-photo-7814806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+                "img" : ["/loofa.png"]
             },
             "sewing kit" : {
                 "title": "Sewing kit",
                 "category" : "Guest Amenities",
                 "description" : "This deluxe 5-star sewing kit includes premium needles and threads, making it a must-have for both beginners and experienced sewers. It is durable and stylish, providing a perfect blend of functionality and elegance.",
-                "fabric" : ["Percale", "Satin"],
-                "design" : ["Plain", "Striped"],
+                "fabric" : [""],
+                "design" : [""],
                 "colorCode" : ["#ffffff"],
                 "color" : ["White"],
                 "size" : [],
@@ -465,7 +452,7 @@
                 "size" : ["100 x 200 x 30", "120 x 200 x 30", "160 x 200 x 30", "200 x 200 x 30"],
                 "type" : ["Single 01", "Single 02", "Queen", "King"],
                 "link" : "/homes/home comforter set",
-                "img" : ["https://images.pexels.com/photos/15824908/pexels-photo-15824908/free-photo-of-modern-bedroom-with-a-large-bed.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1","https://images.pexels.com/photos/14917462/pexels-photo-14917462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+                "img" : ["/home-comforter-set.png"]
             },
             "mattress protectors" : {
                 "title": "Mattress Protectors",
@@ -600,7 +587,7 @@
                 "size" : [],
                 "type" : [],
                 "link" : "/hotel supplies/floor disinfectant",
-                "img" : ["https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"]
+                "img" : ["/disinfectant.png"]
             },
             "hand wash" : {
                 "title": "Hand wash",
@@ -613,7 +600,7 @@
                 "size" : [],
                 "type" : [],
                 "link" : "/hotel supplies/hand wash",
-                "img" : ["https://images.unsplash.com/photo-1584362522440-4d09ca37e47b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=726&q=80"]
+                "img" : ["/handwash.png"]
             },
             "hand sanitizer" : {
                 "title": "Hand sanitizer",
@@ -666,19 +653,6 @@
                 "type" : [],
                 "link" : "/hotel supplies/news paper holder",
                 "img" : ["https://5.imimg.com/data5/JC/KS/XD/SELLER-79879711/newspaper-stand-500x500.jpg"]
-            },
-            "laundry trolley" : {
-                "title": "Laundry trolley",
-                "category" : "Hotel Supplies",
-                "description" : "Our premium laundry trolley is the pinnacle of functionality and elegance. With its sturdy structure and streamlined appearance, this trolley glides across any surface with ease, making laundry day a breeze. It is the ideal partner for organizing and transporting your laundry with style and simplicity, thanks to its huge storage capacity and accessible compartments.",
-                "fabric" : [],
-                "design" : [],
-                "colorCode" : ["#ffffff"],
-                "color" : ["White"],
-                "size" : [],
-                "type" : [],
-                "link" : "/hotel supplies/laundry trolley",
-                "img" : ["https://hillshome.cdn.blz.onl/wp-content/uploads/2021/02/2747186_Premium_Laundry_Trolley_9451_INSITU_HR-scaled.jpg.webp"]
             },
             "podium" : {
                 "title": "Podium",
@@ -808,7 +782,7 @@
                 "size" : [],
                 "type" : [],
                 "link" : "/hotel supplies/kettle+tray+2 cups",
-                "img" : ["https://btray.com/wp-content/uploads/Welcome-tray-set-with-eco-friendly-kettle.jpg"]
+                "img" : ["/kettle-tray.jpeg"]
             },
             "weight scale" : {
                 "title": "Weight scale",
@@ -834,7 +808,7 @@
                 "size" : [],
                 "type" : [],
                 "link" : "/hotel supplies/first aid box",
-                "img" : ["https://images.pexels.com/photos/8943182/pexels-photo-8943182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
+                "img" : ["/first-aid.jpeg"]
             },
             "suggestion box" : {
                 "title": "Suggestion box",
@@ -847,7 +821,7 @@
                 "size" : [],
                 "type" : [],
                 "link" : "/hotel supplies/suggestion box",
-                "img" : ["https://i5.walmartimages.com/asr/f5165cc8-e92f-43cc-94da-e28b48b3315d.70f59ddf8603177e301622fca5df879b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"]
+                "img" : ["/suggestion-box.png"]
             },
             "laundry bag" : {
                 "title": "Laundry bag",
@@ -860,7 +834,7 @@
                 "size" : [],
                 "type" : [],
                 "link" : "/hotel supplies/laundry bag",
-                "img" : ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ95nTWusL9yulQtfNnJON4HkyGHBvPkx9t1Q&usqp=CAU"]
+                "img" : ["/laundry.png"]
             },
             "luggage rack" : {
                 "title": "Luggage rack",
@@ -951,7 +925,7 @@
                 "size" : [],
                 "type" : [],
                 "link" : "/hotel supplies/dustbin with tray",
-                "img" : ["https://wybone.co.uk/wp-content/uploads/2021/11/Torpedo-Double-Tray-scaled.jpg"]
+                "img" : ["/trash-can.jpg"]
             },
             "two layer dustbin" : {
                 "title": "Two layer dustbin",
@@ -1081,7 +1055,7 @@
                 "size" : [],
                 "type" : [],
                 "link" : "/hotel supplies/qibla direction sign",
-                "img" : ["https://ih1.redbubble.net/image.4254972503.6126/st,small,507x507-pad,600x600,f8f8f8.jpg"]
+                "img" : ["/qibla.png"]
             },
             "holy quran" : {
                 "title": "Holy quran",
@@ -1115,7 +1089,7 @@
         "description" : "Imran Gulf Industries is a prominent maker of quality mattresses with years of expertise and a dedication to perfection. Our expert artisans and engineers precisely create each mattress, employing cutting-edge technology and the best materials available. Our mattresses are associated with luxury, giving an opulent sleeping experience that rejuvenates both body and mind. We are devoted to sustainability and use eco-friendly measures throughout our production process. Our experienced and pleasant staff is always ready to assist you in locating the appropriate mattress, and we stand behind the quality of our mattresses with extensive guarantees. Choose Imran Gulf Industries and you can be confident that you are investing in a superb sleep solution that will reinvent your nights and invigorate your days.",
         "products": {
             "mattress 01" : {
-                "title": "Red mattress compressed with topper",
+                "title": "Mattress compressed with topper",
                 "category" : "Mattresses",
                 "description" : "",
                 "fabric" : ["Percale", "Satin"],
@@ -1125,10 +1099,10 @@
                 "size" : ["160 x 260", "240 x 260"],
                 "type" : ["Single", "King"],
                 "link" : "/mattresses/mattress 01",
-                "img" : ["https://5.imimg.com/data5/CO/PT/MY-2758471/red-mattress-topper.jpg", "https://5.imimg.com/data5/UE/ZU/MI/SELLER-282937/fitted-mattress-topper-500x500.jpg"]
+                "img" : ["/mattress-with-topper.png"]
             },
             "mattress 02" : {
-                "title": "Red mattress compressed without topper",
+                "title": "Mattress compressed without topper",
                 "category" : "Mattresses",
                 "description" : "",
                 "fabric" : ["Percale", "Satin"],
@@ -1138,7 +1112,7 @@
                 "size" : ["100 x 260 x 27", "100 x 260 x 27", "160 x 200 x 27", "200 x 200 x 27"],
                 "type" : ["Single 01", "Single 02", "Queen", "King"],
                 "link" : "/mattresses/mattress 02",
-                "img" : [ "https://www.wallpaperflare.com/static/781/353/107/room-bed-design-interior-wallpaper.jpg","https://c4.wallpaperflare.com/wallpaper/932/873/184/red-background-wall-wall-wallpaper-preview.jpg"]
+                "img" : [ "/mattress-without-topper.png"]
             }
         }
     },

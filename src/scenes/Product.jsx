@@ -114,7 +114,7 @@ const Product = ({ products }) => {
                 <div class="mb-5">
                     <Link to="/bed linen">
                     <div class="w-full mb-2 lg:mb-0 flex flex-row flex-wrap items-center">
-                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">Bed Linen</h1>
+                        <h1 class="w-2/4 lg:w-2/12 sm:text-xl text-lg font-medium title-font mb-2 text-gray-900 underline underline-offset-8">IGI Linens</h1>
                         <div class="h-0.5 w-2/4 lg:w-8/12 bg-gray-400 rounded"></div>
                         <div className='hidden md:flex md:flex-row items-center justify-end w-1/4 lg:w-2/12'>
                         <h2 className="text-right mr-4">View More</h2>
